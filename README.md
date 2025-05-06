@@ -1,12 +1,14 @@
 # TESTOWANIE
 
-============================ pobierania listy zwierząt (GET) ============================
+* pobierania listy zwierząt (GET)
 https://localhost:7222/api/animal
 
-================== pobierania danych konkretnego zwierzęcia po id (GET) =================
+======================================================
+
+* pobierania danych konkretnego zwierzęcia po id (GET)
 https://localhost:7222/api/animal/4
 
-============================== dodawania zwierzęcia (POST) ==============================
+* dodawania zwierzęcia (POST)
 https://localhost:7222/api/animal
 
 BODY:
@@ -17,7 +19,7 @@ BODY:
     "HairColor": "Blue"
 }
 
-============================= edycji danych zwierzęcia (PUT) =============================
+* edycji danych zwierzęcia (PUT)
 https://localhost:7222/api/animal/5
 
 BODY:
@@ -28,17 +30,17 @@ BODY:
     "HairColor": "Yellow"
 }
 
-============================== usuwania zwierzęcia (DELETE) ==============================
+* usuwania zwierzęcia (DELETE)
 https://localhost:7222/api/animal/5
 
-================ wyszukania wszystkich zwierząt na podstawie imienia (GET) ===============
+* wyszukania wszystkich zwierząt na podstawie imienia (GET)
 https://localhost:7222/api/animal/search?name=Angel
 
-= chcielibyśmy mieć możliwość pobrania listy wizyt powiązanych z danym zwierzęciem (GET) =
+* chcielibyśmy mieć możliwość pobrania listy wizyt powiązanych z danym zwierzęciem (GET) =
 
 https://localhost:7222/api/visit/3
 
-================ chcielibyśmy mieć możliwość dodawania nowych wizyt (POST) ================
+* chcielibyśmy mieć możliwość dodawania nowych wizyt (POST)
 https://localhost:7222/api/visit/3
 
 BODY:
