@@ -3,7 +3,7 @@
 * pobierania listy zwierząt (GET)
 https://localhost:7222/api/animal
 
-=========================================================================
+==================================================================================
 
 * pobierania danych konkretnego zwierzęcia po id (GET)
 https://localhost:7222/api/animal/4
