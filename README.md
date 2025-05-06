@@ -35,6 +35,7 @@ https://localhost:7222/api/animal/5
 https://localhost:7222/api/animal/search?name=Angel
 
 = chcielibyśmy mieć możliwość pobrania listy wizyt powiązanych z danym zwierzęciem (GET) =
+
 https://localhost:7222/api/visit/3
 
 ================ chcielibyśmy mieć możliwość dodawania nowych wizyt (POST) ================
