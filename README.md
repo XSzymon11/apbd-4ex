@@ -12,9 +12,9 @@ https://localhost:7222/api/animal
 BODY:
 {
     "Name": "Szymon",
-    "Category": "koń",
+    "Category": "Fish",
     "Weight": "93",
-    "HairColor": "niebieski"
+    "HairColor": "Blue"
 }
 
 ============================= edycji danych zwierzęcia (PUT) =============================
@@ -23,9 +23,9 @@ https://localhost:7222/api/animal/5
 BODY:
 {
     "Name": "Kacper",
-    "Category": "źrebak",
+    "Category": "Sheep",
     "Weight": "130",
-    "HairColor": "czarny"
+    "HairColor": "Yellow"
 }
 
 ============================== usuwania zwierzęcia (DELETE) ==============================
