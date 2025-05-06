@@ -44,6 +44,7 @@ https://localhost:7222/api/animal/5
 ===========================================================================
 
 * wyszukania wszystkich zwierząt na podstawie imienia (GET)
+
 https://localhost:7222/api/animal/search?name=Angel
 
 ===========================================================================
